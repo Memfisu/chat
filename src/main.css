@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.time {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 4.08;
+    text-align: right;
+}
+
+.message {
+    border-radius: 4.8px;
+    opacity: 0.9;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.39;
+    text-align: left;
+}
+
+.dots {
+    mask: url('./icons/more.svg') no-repeat;
+    mask-size: contain;
+    width: 19px;
+    height: 4px;
+}
+
+/* левый блок */
+
+.left-menu {
+    background-color: #242a31;
+}
+
+.menu-icon {
+    background-image: url('./icons/hamburger-menu-icon.svg');
+    width: 20px;
+    height: 16px;
+}
+
+.search {
+    background-image: url('./icons/search@3x.png');
+    width: 17px;
+    height: 17px;
+    background-size: contain;
+}
+
+.photo {
+    background-image: url('./icons/photo@3x.png');
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+.additional-container .dots {
+   background-color: #ffffff;
+}
+
+.dialogs-item .name {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 2.39;
+    text-align: left;
+    color: #ffffff;
+}
+
+.dialogs-text {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.26;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+}
+
+.additional-container .time {
+    opacity: 0.2;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+/* центральный блок */
+
+.main-window {
+    background-color: #eceef2;
+}
+
+.upper-block {
+    opacity: 0.8;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 2.68;
+    text-align: left;
+    color: rgba(41, 48, 55, 0.8);
+}
+
+.upper-block .name {
+    font-weight: bold;
+}
+
+.star {
+    background-image: url('./icons/star.svg');
+    width: 26px;
+    height: 23px;
+    background-size: contain;
+}
+
+.sender-info .time {
+    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.sender-info .photo {
+    width: 42px;
+    height: 42px;
+}
+
+.message--sender {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #ffffff;
+}
+
+.message--receiver {
+    color: #ffffff;
+    background-color: #0084ff;
+}
+
+.typing-block {
+    opacity: 0.7;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.39;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.attach {
+    background-image: url('./icons/attach@3x.png');
+    width: 17px;
+    height: 27px;
+    background-size: contain;
+}
+
+.emoji {
+    background-image: url('./icons/emojis@3x.png');
+    width: 27px;
+    height: 26px;
+    background-size: cover;
+}
+
+.send {
+    background-image: url('./icons/send@3x.png');
+    width: 22px;
+    height: 18px;
+    background-size: cover;
+}
+
+/* правый блок */
+
+.right-menu {
+    background-color: #ffffff;
+}
+
+.general-info .dots {
+    background-color: #000000;
+}
+
+.general-info .name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.9;
+    text-align: left;
+    color: #293037;
+}
+
+.general-info .photo {
+    width: 144px;
+    height: 144px;
+    border-radius: 70px;
+}
+
+.general-info .location {
+    opacity: 0.7;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.26;
+    text-align: left;
+    color: rgba(41, 48, 55, 0.7);
+}
+
+.additional-info {
+    opacity: 0.8;
+    font-size: 15.5px;
+    line-height: 4.03;
+    color: rgba(41, 48, 55, 0.8);
+    text-align: right;
+    font-weight: 300;
+}
+
+.additional-info .info-header {
+    font-weight: 600;
+    text-align: left;
+}
