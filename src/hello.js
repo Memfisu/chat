@@ -7,8 +7,13 @@ class Hello extends React.Component{
 			<div className='main-container'>
 				<div className='left-menu'>
 					<div className='left-menu__menu-block'>
-						<div className='menu-icon' />
-						<div className='search' />
+						<div className='menu-icon__container'>
+							<div className='menu-icon' />
+						</div>
+						<div className='search__container'>
+							<input className='search-input' placeholder='Search'/>
+							<div className='search-icon' />
+						</div>
 					</div>
 					<div className='left-menu__dialogs'>
 						<div className='left-menu__dialogs_item'>

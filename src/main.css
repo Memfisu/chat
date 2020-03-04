@@ -11,6 +11,12 @@ body {
     letter-spacing: normal;
 }
 
+.main-container {
+    width: 1548px; /* временно для построения сетки */
+    height: 1200px; /* временно для построения сетки */
+    display: flex;
+}
+
 .time {
     font-size: 13px;
     font-weight: 500;
@@ -38,19 +44,71 @@ body {
 
 .left-menu {
     background-color: #242a31;
+    width: 432px; /* временно для построения сетки */
+}
+
+.left-menu__menu-block {
+    display: flex;
+    width: 100%;
+    height: 94px; /* временно для построения сетки */
+}
+
+.menu-icon__container {
+    width: 73px; /* временно для построения сетки */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-icon {
     background-image: url('./icons/hamburger-menu-icon.svg');
     width: 20px;
     height: 16px;
+    padding: 0;
+    margin: 0;
 }
 
-.search {
+.search__container {
+    width: 328px; /* временно для построения сетки */
+    height: 100%;
+    position: relative;
+}
+
+.search-input {
+    width: 95%; /* временно для построения сетки */
+    height: 44px; /* временно для построения сетки */
+    box-shadow: 0.5px 0.9px 1px 0 rgba(0, 0, 0, 0.06);
+    background-color: #363d45;
+    border-radius: 50px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2.68;
+    text-align: left;
+    color: #868b8e;
+
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-right: 31px;
+}
+
+.search-input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.search-icon {
     background-image: url('./icons/search@3x.png');
     width: 17px;
     height: 17px;
     background-size: contain;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
 }
 
 .photo {
@@ -91,6 +149,7 @@ body {
 
 .main-window {
     background-color: #eceef2;
+    width: 784px; /* временно для построения сетки */
 }
 
 .upper-block {
@@ -167,6 +226,7 @@ body {
 
 .right-menu {
     background-color: #ffffff;
+    width: 333px; /* временно для построения сетки */
 }
 
 .general-info .dots {
