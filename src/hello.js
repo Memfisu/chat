@@ -17,11 +17,15 @@ class Hello extends React.Component{
 					</div>
 					<div className='left-menu__dialogs'>
 						<div className='left-menu__dialogs_item'>
-							<div className='photo' />
-							<div>online</div>
+							<div className='status--online' />
+							<div className='dialogs-photo'>
+								<div className='photo' />
+							</div>
 							<div className='dialogs-item'>
-								<div className='name'>Вася Божественный</div>
-								<div className="dialogs-text">Ну, я такой весь Вася...</div>
+								<div className='dialog-container'>
+									<div className='name'>Вася Божественный</div>
+									<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+								</div>
 								<div className='additional-container'>
 									<div className='dots'/>
 									<div className='time'>15:42</div>
@@ -32,39 +36,56 @@ class Hello extends React.Component{
 				</div>
 				<div className='main-window'>
 					<div className='upper-block'>
-						<div><span className="name">Вася Божественный</span> печатает...</div>
-						<div className='star'/>
+						<div className='typing'><span className="name">Вася Божественный</span> печатает...</div>
+						<div className='star-container'>
+							<div className='star'/>
+						</div>
 					</div>
 					<div className="chat">
-						<div className='sender-info'>
-							<div className='photo' />
-							<div className='time'>15:30</div>
+						<div className='chat-item'>
+							<div className='sender-info'>
+								<div className='photo' />
+								<div className='time'>15:30</div>
+							</div>
+							<div className='message message--sender'>Привет, хочешь покажу своего внутреннего Васю?</div>
 						</div>
-						<div className='message message--sender'>Привет, хочешь покажу своего внутреннего Васю?</div>
-						<div className='sender-info'>
-							<div className='photo' />
-							<div className='time'>15:31</div>
+						<div className='chat-item'>
+							<div className='sender-info'>
+								<div className='photo' />
+								<div className='time'>15:31</div>
+							</div>
+							<div className='message message--receiver'>О ДА!!!!</div>
 						</div>
-						<div className='message message--receiver'>О ДА!!!!</div>
-						<div className='sender-info'>
-							<div className='photo' />
-							<div className='time'>15:31</div>
+						<div className='chat-item'>
+							<div className='sender-info'>
+								<div className='photo' />
+								<div className='time'>15:31</div>
+							</div>
+							<div className='message message--sender'>Ну, я такой весь Вася)))))</div>
 						</div>
-						<div className='message message--sender'>Ну, я такой весь Вася)))))</div>
 					</div>
 					<div className='typing-block'>
 						<div className='attach' />
-						<div>печатай сюда</div>
-						<div className='emoji' />
-						<div className='send' />
+						<div className='input'>печатай сюда</div>
+						<div className='emoji-container'>
+							<div className='emoji' />
+						</div>
+						<div className='send-container'>
+							<div className='send' />
+						</div>
 					</div>
 				</div>
 				<div className='right-menu'>
-					<div className='general-info'>
-						<div className='dots'/>
-						<div className='photo' />
-						<div className='name'>Вася Божественный</div>
-						<div className='location'>Москва, конечно же</div>
+					<div className='bell-container' />
+					<div className='general-info-container'>
+						<div className='general-info'>
+							<div className='photo' />
+							<div className='name'>Вася Божественный</div>
+							<div className='location'>Москва, конечно же</div>
+						</div>
+						<div className='dots-container'>
+							<div className='dots'/>
+						</div>
 					</div>
 					<div className='additional-info'>
 						<div><span className='info-header'>Никнейм:</span> nagibator_vasya1980</div>
