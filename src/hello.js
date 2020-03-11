@@ -42,26 +42,32 @@ class Hello extends React.Component{
 						</div>
 					</div>
 					<div className="chat">
-						<div className='chat-item'>
-							<div className='sender-info'>
-								<div className='photo' />
-								<div className='time'>15:30</div>
+						<div className='chat-item chat-item--sender'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:30</div>
+								</div>
+								<div className='message'>Привет, хочешь покажу своего внутреннего Васю?</div>
 							</div>
-							<div className='message message--sender'>Привет, хочешь покажу своего внутреннего Васю?</div>
 						</div>
-						<div className='chat-item'>
-							<div className='sender-info'>
-								<div className='photo' />
-								<div className='time'>15:31</div>
+						<div className='chat-item chat-item--receiver'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:31</div>
+								</div>
+								<div className='message'>О ДА!!!!</div>
 							</div>
-							<div className='message message--receiver'>О ДА!!!!</div>
 						</div>
-						<div className='chat-item'>
-							<div className='sender-info'>
-								<div className='photo' />
-								<div className='time'>15:31</div>
+						<div className='chat-item chat-item--sender'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:31</div>
+								</div>
+								<div className='message'>Ну, я такой весь Вася)))))</div>
 							</div>
-							<div className='message message--sender'>Ну, я такой весь Вася)))))</div>
 						</div>
 					</div>
 					<div className='typing-block'>
@@ -88,8 +94,8 @@ class Hello extends React.Component{
 						</div>
 					</div>
 					<div className='additional-info'>
-						<div><span className='info-header'>Никнейм:</span> nagibator_vasya1980</div>
-						<div><span className='info-header'>Гендер:</span> васясексуал</div>
+						<div className='additional-info-text'><span className='info-header'>Никнейм:</span> nagibator_vasya1980</div>
+						<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
 					</div>
 				</div>
 			</div>
