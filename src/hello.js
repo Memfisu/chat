@@ -16,20 +16,33 @@ class Hello extends React.Component{
 						</div>
 					</div>
 					<div className='left-menu__dialogs'>
-						<div className='left-menu__dialogs_item'>
-							<div className='status--online' />
+						<div className='dialogs-item'>
 							<div className='dialogs-photo'>
+								<div className='status--online' />
 								<div className='photo' />
 							</div>
-							<div className='dialogs-item'>
-								<div className='dialog-container'>
-									<div className='name'>Вася Божественный</div>
-									<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
-								</div>
-								<div className='additional-container'>
-									<div className='dots'/>
-									<div className='time'>15:42</div>
-								</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
+							</div>
+						</div>
+						
+						<div className='dialogs-item'>
+							<div className='dialogs-photo'>
+								<div className='status--online' />
+								<div className='photo' />
+							</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
 							</div>
 						</div>
 					</div>
@@ -83,14 +96,14 @@ class Hello extends React.Component{
 				</div>
 				<div className='right-menu'>
 					<div className='bell-container' />
+					<div className='dots-container'>
+						<div className='dots'/>
+					</div>
 					<div className='general-info-container'>
 						<div className='general-info'>
 							<div className='photo' />
 							<div className='name'>Вася Божественный</div>
 							<div className='location'>Москва, конечно же</div>
-						</div>
-						<div className='dots-container'>
-							<div className='dots'/>
 						</div>
 					</div>
 					<div className='additional-info'>

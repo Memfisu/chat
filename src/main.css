@@ -34,9 +34,7 @@ body {
     line-height: 1.39;
     text-align: left;
 
-    padding-top: 24px;
-    padding-left: 30px;
-    padding-right: 31px;
+    padding: 24px 30px;
     margin-right: auto;
 }
 
@@ -85,7 +83,7 @@ body {
     width: 100%;
     position: relative;
     margin-left: 25px;
-    margin-bottom: 24px;
+    margin-bottom: 14px;
     margin-top: 26px;
 }
 
@@ -125,23 +123,17 @@ body {
     right: 50px;
 }
 
-.left-menu__dialogs_item {
-    display: flex;
-    padding-left: 30px;
-    padding-top: 30px;
-}
-
 .dialogs-photo {
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 28px;
-    padding-right: 22px;
 }
 
 .status--online {
     background-color: #2dc100;
-    width: 8px;
+    min-width: 8px;
     height: 8px;
     border-radius: 50px;
+    position: absolute;
 }
 
 .photo {
@@ -166,10 +158,16 @@ body {
 
 .dialogs-item {
     display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 24px;
+    position: relative;
 }
 
 .dialog-container {
-    width: 265px; /* временно для построения сетки */
+    /*width: 265px; !* временно для построения сетки *!*/
+    margin-left: 22px;
+    padding-right: 45px;
 }
 
 .dialogs-item .name {
@@ -191,7 +189,6 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding-right: 45px;
 }
 
 .additional-container .time {
@@ -213,19 +210,18 @@ body {
     opacity: 0.8;
     font-size: 17px;
     font-weight: 300;
-    line-height: 2.68;
     text-align: left;
     color: rgba(41, 48, 55, 0.8);
 
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+    min-height: 94px;
 }
 
 .typing {
-    padding-top: 23px;
-    padding-left: 36px;
-    padding-bottom: 26px;
+    padding: 37px 36px 30px 36px;
 }
 
 .typing .name {
@@ -348,7 +344,7 @@ body {
 
 .attach {
     background-image: url('./icons/attach@3x.png');
-    width: 17px;
+    min-width: 17px;
     height: 27px;
     background-size: contain;
 
@@ -376,7 +372,7 @@ body {
     background-color: #364556;
     border-radius: 50px;
     height: 46px;
-    width: 47px;
+    min-width: 47px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -414,17 +410,19 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-left: 65px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dots-container {
-    /*width: 27px; !* временно для построения сетки *!*/
+    padding-top: 25px;
+    padding-right: 50px;
 }
 
 .dots-container .dots {
     background-color: #000000;
-    margin-top: 25px;
-    margin-right: 27px;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .general-info .name {
