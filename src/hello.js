@@ -19,7 +19,9 @@ class Hello extends React.Component{
 						<div className='dialogs-item'>
 							<div className='dialogs-photo'>
 								<div className='status--online' />
-								<div className='photo' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
 							</div>
 							<div className='dialog-container'>
 								<div className='name'>Вася Божественный</div>
@@ -34,7 +36,9 @@ class Hello extends React.Component{
 						<div className='dialogs-item'>
 							<div className='dialogs-photo'>
 								<div className='status--online' />
-								<div className='photo' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
 							</div>
 							<div className='dialog-container'>
 								<div className='name'>Вася Божественный</div>

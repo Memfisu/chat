@@ -124,6 +124,13 @@ body {
 }
 
 .dialogs-photo {
+    flex-basis: 60px;
+    flex-shrink: 0;
+    padding-left: 30px;
+    position: relative;
+}
+
+.photo-container {
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 28px;
 }
@@ -148,6 +155,9 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    flex-basis: 64px;
+    flex-shrink: 0;
+    padding-right: 24px;
 }
 
 .additional-container .dots {
@@ -158,16 +168,16 @@ body {
 
 .dialogs-item {
     display: flex;
-    padding-left: 30px;
     padding-top: 30px;
-    padding-right: 24px;
-    position: relative;
 }
 
 .dialog-container {
-    /*width: 265px; !* временно для построения сетки *!*/
     margin-left: 22px;
     padding-right: 45px;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .dialogs-item .name {
@@ -176,6 +186,9 @@ body {
     line-height: 2.39;
     text-align: left;
     color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .dialogs-text {
@@ -193,7 +206,6 @@ body {
 
 .additional-container .time {
     color: rgba(255, 255, 255, 0.2);
-    /*width: 33px; !* временно для построения сетки *!*/
 }
 
 /* центральный блок */
