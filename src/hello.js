@@ -89,7 +89,7 @@ class Hello extends React.Component{
 					</div>
 					<div className='typing-block'>
 						<div className='attach' />
-						<div className='input'>печатай сюда</div>
+						<input className='input' placeholder='Type your message...'/>
 						<div className='emoji-container'>
 							<div className='emoji' />
 						</div>
