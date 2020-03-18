@@ -49,6 +49,108 @@ class Hello extends React.Component{
 								<div className='time'>15:42</div>
 							</div>
 						</div>
+
+						<div className='dialogs-item'>
+							<div className='dialogs-photo'>
+								<div className='status--online' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
+							</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
+							</div>
+						</div>
+
+						<div className='dialogs-item'>
+							<div className='dialogs-photo'>
+								<div className='status--online' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
+							</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
+							</div>
+						</div>
+
+						<div className='dialogs-item'>
+							<div className='dialogs-photo'>
+								<div className='status--online' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
+							</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
+							</div>
+						</div>
+
+						<div className='dialogs-item'>
+							<div className='dialogs-photo'>
+								<div className='status--online' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
+							</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
+							</div>
+						</div>
+
+						<div className='dialogs-item'>
+							<div className='dialogs-photo'>
+								<div className='status--online' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
+							</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
+							</div>
+						</div>
+
+						<div className='dialogs-item'>
+							<div className='dialogs-photo'>
+								<div className='status--online' />
+								<div className='photo-container'>
+									<div className='photo' />
+								</div>
+							</div>
+							<div className='dialog-container'>
+								<div className='name'>Вася Божественный</div>
+								<div className="dialogs-text">Ну, я такой весь Вася))))))))))))))))))))))))</div>
+							</div>
+							<div className='additional-container'>
+								<div className='dots'/>
+								<div className='time'>15:42</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div className='main-window'>
@@ -86,6 +188,51 @@ class Hello extends React.Component{
 								<div className='message'>Ну, я такой весь Вася)))))</div>
 							</div>
 						</div>
+						<div className='chat-item chat-item--sender'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:30</div>
+								</div>
+								<div className='message'>Привет, хочешь покажу своего внутреннего Васю?</div>
+							</div>
+						</div>
+						<div className='chat-item chat-item--sender'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:30</div>
+								</div>
+								<div className='message'>Привет, хочешь покажу своего внутреннего Васю?</div>
+							</div>
+						</div>
+						<div className='chat-item chat-item--sender'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:30</div>
+								</div>
+								<div className='message'>Привет, хочешь покажу своего внутреннего Васю?</div>
+							</div>
+						</div>
+						<div className='chat-item chat-item--sender'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:30</div>
+								</div>
+								<div className='message'>Привет, хочешь покажу своего внутреннего Васю?</div>
+							</div>
+						</div>
+						<div className='chat-item chat-item--sender'>
+							<div className='message-container'>
+								<div className='sender-info'>
+									<div className='photo' />
+									<div className='time'>15:30</div>
+								</div>
+								<div className='message'>Привет, хочешь покажу своего внутреннего Васю? Привет, хочешь покажу своего внутреннего Васю? Привет, хочешь покажу своего внутреннего Васю? Привет, хочешь покажу своего внутреннего Васю?Привет, хочешь покажу своего внутреннего Васю? Привет, хочешь покажу своего внутреннего Васю? Привет, хочешь покажу своего внутреннего Васю? Привет, хочешь покажу своего внутреннего Васю?</div>
+							</div>
+						</div>
 					</div>
 					<div className='typing-block'>
 						<div className='attach' />
@@ -100,19 +247,30 @@ class Hello extends React.Component{
 				</div>
 				<div className='right-menu'>
 					<div className='bell-container' />
-					<div className='dots-container'>
-						<div className='dots'/>
-					</div>
-					<div className='general-info-container'>
-						<div className='general-info'>
-							<div className='photo' />
-							<div className='name'>Вася Божественный</div>
-							<div className='location'>Москва, конечно же</div>
+					<div className='right-menu__information'>
+						<div className='dots-container'>
+							<div className='dots'/>
 						</div>
-					</div>
-					<div className='additional-info'>
-						<div className='additional-info-text'><span className='info-header'>Никнейм:</span> nagibator_vasya1980</div>
-						<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+						<div className='general-info-container'>
+							<div className='general-info'>
+								<div className='photo' />
+								<div className='name'>Вася Божественный</div>
+								<div className='location'>Москва, конечно же</div>
+							</div>
+						</div>
+						<div className='additional-info'>
+							<div className='additional-info-text'><span className='info-header'>Никнейм:</span> nagibator_vasya1980</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+							<div className='additional-info-text'><span className='info-header'>Гендер:</span> васясексуал</div>
+						</div>
 					</div>
 				</div>
 			</div>
